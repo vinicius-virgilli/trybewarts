@@ -1,0 +1,215 @@
+body {
+  background-image: url(images/test2.png);
+  background-image: cover;
+  color: white;
+  font-family:serif;
+  margin: 0;
+}
+
+#header {
+  transition: 0.4s;
+  height: 70px;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.7;
+}
+
+#header:hover {
+  opacity: 1;
+}
+
+#header h1 {
+  font-size: xx-large;
+}
+
+#password, #Email {
+  width: 130%;
+}
+
+#btn-enviar, #password, #Email {
+  box-shadow: 3px 3px 3px white;
+  border: 0;
+}
+
+.trybewarts-header-logo {
+  height: 50px;
+}
+
+.container-principal {
+  transition: 0.6s;
+  min-width: 70%;
+  border-radius: 20px;
+  border: 4px solid rgb(50, 167, 145);
+  opacity: 0.6;
+  background-color: black;
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-principal:hover {
+  opacity: 1;
+  transition: 0.6s;
+}
+
+#formulario {
+  margin: 25px 0;
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+}
+
+#formulario:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#trybewarts-login {
+  padding: 0;
+  width: 600px;
+  display: flex;
+  justify-content: space-around
+}
+
+textarea {
+  background-color: antiquewhite;
+  resize: none;
+  border-radius: 10px;
+}
+
+#ola {
+  color: white;
+  width: 15%;
+  font-size: x-large;
+}
+
+#evaluation-form {
+  margin: 0;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+#evaluation-form input {
+  margin: 10px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+.name-lastname {
+  display: flex;
+}
+
+.name-lastname input {
+  width: 250px;
+  border-radius: 5px;
+}
+
+.email-select {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.email-select input {
+  background-color: antiquewhite;
+  margin: 10px;
+  width: 250px;
+}
+
+.email-select label {
+  margin: 10px;
+}
+
+.email-select select {
+  background-color: antiquewhite;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.family-content {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.label-family {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+#label-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  justify-content: space-between;
+}
+
+hr {
+  margin: 3px;
+  padding: 3px;
+  border: 1px solid rgb(50, 167, 145);
+}
+
+p {
+  margin: 0;
+}
+
+.footer {
+  transition: 0.4s;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(50, 167, 145);
+  opacity: 0.7;
+}
+
+.textarea {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#submit-btn {
+  color: white;
+  border-radius: 5px;
+   background-color: rgb(50, 167, 145);
+}
+.footer:hover {
+  color: black;
+  opacity: 1;
+}
+
+#form-data {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-data p {
+  font-size: x-large;
+  padding: 10px;
+}
+/* @media (max-width: 1500px) {
+  #formulario {
+    margin-left: 15%;
+    width: 20%;
+  }
+} */
